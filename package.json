@@ -1,0 +1,14 @@
+{
+  "name": "online-doctor-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal server-side AI gateway for the Online Doctor starter app",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
