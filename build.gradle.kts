@@ -1,17 +1,4 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-}
-
-android {
-    namespace = "com.onlinedoctor.app"
-    compileSdk = 35
-
-    defaultConfig {
-        applicationId = "com.onlinedoctor.app"
-        minSdk = 24
-        targetSdk = 35
-        versionCode = 2
-        versionName = "1.1.0"
-    }
+    id("com.android.application") version "8.7.3" apply false
+    id("org.jetbrains.kotlin.android") version "2.0.21" apply false
 }
